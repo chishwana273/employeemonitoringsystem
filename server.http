@@ -1,0 +1,17 @@
+###
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+    "username" : "NAKATI BHAVANI",
+    "password" : "Unis@123"
+}
+
+
+###
+PUT http://localhost:4000/logout
+Content-Type: application/json
+
+{
+    "username" : "NAKATI BHAVANI"
+}
